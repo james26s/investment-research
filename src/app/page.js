@@ -1,5 +1,11 @@
+"use client"; // Required for client-side rendering
+
 import Image from "next/image";
 import styles from "./page.module.css";
+import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
+import Container from '@mui/material/Container';
+import SearchBar from './components/SearchBar';
 
 export default function Home() {
   return (
@@ -13,37 +19,40 @@ export default function Home() {
           height={38}
           priority
         />
+        <Typography variant="h4" component="h1" gutterBottom>
+          Welcome to Your App
+        </Typography>
         <ol>
           <li>
-            Get started by editing <code>src/app/page.js</code>.
+            <Typography variant="body1">
+              Get started by editing <code>src/app/page.js</code>.
+            </Typography>
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>
+            <Typography variant="body1">Save and see your changes instantly.</Typography>
+          </li>
         </ol>
 
         <div className={styles.ctas}>
-          <a
-            className={styles.primary}
+          <Button
+            variant="contained"
+            color="primary"
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
+            className={styles.primary}
           >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
             Deploy now
-          </a>
-          <a
+          </Button>
+          <Button
+            variant="outlined"
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.secondary}
           >
             Read our docs
-          </a>
+          </Button>
         </div>
       </main>
       <footer className={styles.footer}>
@@ -90,6 +99,20 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
+      <div>
+    <Button variant="contained" color="primary">
+      Primary Button
+    </Button>
+    <Button variant="contained" color="secondary">
+      Secondary Button
+    </Button>
+    </div>
+    <Container maxWidth="sm" style={{ marginTop: '2rem' }}>
+      <Typography variant="h4" component="h1" gutterBottom>
+        Stock Info App
+      </Typography>
+      <SearchBar />
+    </Container>        
     </div>
   );
 }

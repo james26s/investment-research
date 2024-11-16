@@ -1,0 +1,31 @@
+[
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "price": 150.12,
+      "change": 1.25,
+      "percentChange": 0.84,
+      "description": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide.",
+      "financials": {
+        "revenue": "274.52B",
+        "netIncome": "57.41B",
+        "eps": "3.28",
+        "peRatio": "34.50"
+      }
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "price": 280.25,
+      "change": -2.15,
+      "percentChange": -0.76,
+      "description": "Microsoft Corporation develops, licenses, and supports software, services, devices, and solutions worldwide.",
+      "financials": {
+        "revenue": "143.02B",
+        "netIncome": "44.28B",
+        "eps": "5.76",
+        "peRatio": "30.20"
+      }
+    }
+  ]
+  

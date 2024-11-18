@@ -1,11 +1,16 @@
-"use client"; // Required for client-side rendering
+"use client";
 
 import Image from "next/image";
 import styles from "./page.module.css";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import Container from '@mui/material/Container';
-import SearchBar from './components/SearchBar';
+import Container from "@mui/material/Container";
+import SearchBar from './components/SearchBar'; // Assuming SearchBar is a TypeScript component
+
+interface ButtonProps {
+  variant: "contained" | "outlined";
+  color: "primary" | "secondary";
+}
 
 export default function Home() {
   return (
@@ -100,19 +105,19 @@ export default function Home() {
         </a>
       </footer>
       <div>
-    <Button variant="contained" color="primary">
-      Primary Button
-    </Button>
-    <Button variant="contained" color="secondary">
-      Secondary Button
-    </Button>
-    </div>
-    <Container maxWidth="sm" style={{ marginTop: '2rem' }}>
-      <Typography variant="h4" component="h1" gutterBottom>
-        Stock Info App
-      </Typography>
-      <SearchBar />
-    </Container>        
+        <Button variant="contained" color="primary">
+          Primary Button
+        </Button>
+        <Button variant="outlined" color="secondary">
+          Secondary Button
+        </Button>
+      </div>
+      <Container maxWidth="sm" style={{ marginTop: '2rem' }}>
+        <Typography variant="h4" component="h1" gutterBottom>
+          Stock Info App
+        </Typography>
+        <SearchBar />
+      </Container>
     </div>
   );
 }

@@ -26,5 +26,20 @@
       "eps": 5.76,
       "peRatio": 30.20
     }
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corporation",
+    "price": 450.50,
+    "change": 3.25,
+    "percentChange": 0.73,
+    "description": "NVIDIA Corporation designs, develops, and markets graphics processing units for gaming and professional visualization.",
+    "detailedDescription": "Imagine a world where computers can create stunning images from your descriptions, help doctors diagnose diseases faster, and even drive cars on their own. **NVIDIA is a company at the forefront of making this future a reality.**\n\n**NVIDIA's \"superpower\" is accelerated computing**, a technology that uses special computer chips called GPUs to make computers much faster and more powerful.\n\n* Think of it like having a super brain for computers.\n* This allows them to tackle complex tasks like artificial intelligence (AI) that regular computers struggle with.\n\n**One of NVIDIA's most important inventions is the GPU**, which was initially designed to make video games look more realistic.\n\n* But they quickly realized that GPUs could do so much more.\n* NVIDIA's GPUs are now used in a wide variety of applications, from scientific research to self-driving cars.\n\n**NVIDIA is a full-stack computing company**, meaning it provides everything needed to build and run powerful computer systems.\n\n* They design and manufacture the chips.\n* They develop the software and systems that those chips run on.\n* This comprehensive approach has made them a leader in the rapidly growing field of AI.\n\n**Here's a look at NVIDIA's main business segments:**\n\n* **Compute & Networking**: This segment is responsible for NVIDIA's data center products, which are used by some of the biggest companies in the world to train and run AI models. It also includes networking solutions that connect these powerful computers.\n* **Graphics**: This segment includes the GeForce GPUs that power gaming PCs, the GeForce NOW cloud gaming service, and professional graphics solutions used by artists and designers.\n\n**Why should retail investors be excited about NVIDIA?**\n\n* **NVIDIA is riding the wave of AI**, which is transforming almost every industry.\n* As businesses and governments invest heavily in AI, the demand for NVIDIA's products is expected to continue to grow.\n* In fact, NVIDIA's data center revenue more than tripled in 2024.\n\n**However, like any investment, there are risks to consider:**\n\n* The demand for NVIDIA's products can fluctuate, especially with new technologies like generative AI still in their early stages.\n* The company also faces competition from other chipmakers.\n\n**Overall, NVIDIA is a company with a strong track record of innovation and a bright future ahead**.\n\n* As a retail investor, it's important to do your own research to determine if NVIDIA is the right investment for you.\n* **This overview is just a starting point. Digging deeper into the company's segments, financials, and competition will help you make an informed decision.**",
+    "financials": {
+      "revenue": 26914000000,
+      "netIncome": 12630000000,
+      "eps": 2.35,
+      "peRatio": 191.00
+    }
   }
 ]
